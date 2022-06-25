@@ -1,10 +1,12 @@
-# Frases Motivacionais
+# Bate Coração
 
 ### Como funciona?
 
 Digite sua **pergunta** e clique em **Responda-me**!
 
-Sua frase motivacional aparecerá por 3 segundos!
+A mensagem que seu coração necessita aparecerá por 5 segundos!
+
+https://vanessamie.github.io/motivacionais/
 
 ###### Criado a partir da Maratona Explorer, da RocketSeat com o Mayk Brito, que aconteceu entre 06 a 10 de junho de 2022.
 

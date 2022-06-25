@@ -11,7 +11,8 @@ const mensagens = [
     "Não coloque limite em seus sonhos, coloque fé",
     "A única coisa impossível é o que você não tenta",
     "Dê o seu melhor, nas condições que você tem, enquanto não tem condições melhores para fazer melhor ainda!",
-    "O que acontece depois que a neve derrete? "
+    "O que acontece depois que a neve derrete? Chega a Primavera! ",
+    "Tudo vale a pena se a alma não é pequena!",
 ]
 
 const resposta = document.querySelector("#resposta");
@@ -24,11 +25,11 @@ inputPergunta.focus();
 
 function fazerPergunta() {
     if(inputPergunta.value == "") {
-        alert("Digite sua pergunta!");
+        alert("Psiu! Não consigo entender o que pede seu coração sem uma pergunta!");
         return
     }
 
-    btnPerguntar.setAttribute("sisable", true);
+    btnPerguntar.setAttribute("disable", true);
     
     const pergunta = "<div>" + inputPergunta.value + "</div>"
 

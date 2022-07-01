@@ -135,14 +135,19 @@ input,
 
 footer {
   background: linear-gradient( 0deg, #000000, #5a037c);
+  color: whitesmoke;
   text-align: center;
 }
 
 .social {
   display: flex;
-  justify-content: center;
+  font-size: 2rem;
   gap: 2rem;
+  justify-content: center;
   margin-top: 1rem;
   text-decoration: none;
-  font-size: 2rem;
+}
+
+.social a {
+  color: rgb(210, 207, 211);
 }
